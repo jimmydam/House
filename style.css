@@ -1,0 +1,382 @@
+*{
+	padding: 2px;
+	
+	
+}
+body{
+	background-color: #D3D3D3;
+	width: 800px;
+	background-color: green;
+}
+a{
+	float: left;
+	display: inline-block;
+	z-index: 1;
+	position: relative;
+
+	
+}
+h1{
+	background-color: grey;
+}
+
+h2{
+	background-color: #B28C4A ;
+	width: 80px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	bottom: 502px;
+	border: solid black 2px;
+
+}
+
+h3{
+	background-color: #55DE7E ;
+	width: 98.25%;
+	display: inline-block;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	position: relative;
+	bottom: 20px;
+	
+}
+
+form{
+	height: 20px;
+	width: 800px;
+}
+label{
+	display: ;
+	text-align: left;
+	float: right;
+	margin: 0px;
+	width: 80px;
+	background-color: FCF896;
+	position: relative;
+	clear: left;
+}
+p{
+	padding-left: 3px;
+	padding-right: 3px;
+	
+}
+table{
+	background-color: #55766D   ;
+	position: absolute;
+	top: 820px;
+	width: 800px;
+	
+}
+tbody{
+	background-color: yellow;
+	position: relative;
+	top: 560px;
+	width: 600px;
+	
+}
+td{
+	background-color: white;
+}
+th, tr, td{
+	border: solid grey 2px;
+}
+tr{
+	
+}
+tr:nth-child(even) td{
+    background-color: #D8BFD8;
+}
+tr:nth-child(odd) td{
+    background-color: #EFFA8C;
+}
+.form{
+	background-color: #FCF896;
+	width: 360px;
+	height: 150px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	float: left;
+	
+}
+
+.form1{
+	background-color: #FCF896;
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	position: relative;
+	top: 20px;
+	
+}
+.formSmall{
+	
+	
+	background-color: #FCF896;
+	
+	width: 360px;
+	height: 80px;
+	display: table;
+	border-style: solid;
+	border-width: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	float: left;
+}
+.formSmall2{
+	width: 280px;
+	
+	
+}
+
+
+.formTable{
+	background-color: #FCF896;
+	border: solid black 4px;
+	height: 150px;
+	position: relative;
+	top: 500px;
+	
+	
+	
+}
+.formTable2{
+	
+	border: solid black 4px;
+	height: 260px;
+	position: absolute;
+	top: 300px;
+	z-index: -1;
+}
+.formTable3{
+	border: solid black 4px;
+	height: 260px;
+	position: absolute;
+	width: 298px;
+	top: ;
+	background-color: yellow;
+}
+.input{
+	
+	background-color: pink;
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	
+}
+.labels{
+	background-color: #FCF896;
+	height: 80px;
+	width: 50px;
+	float: left;
+	
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+.table{
+	background-color: ##D3D3D3;
+	width: 600px;
+	height: 1500px;
+	border: soild black 3px;
+}
+.update{
+	float: left;
+	display: inline-block;
+	width: 150px;
+	margin-bottom: px;
+	height: 14px;
+	text-align: right;
+	vertical-align: top;
+	width: 80px;
+	background-color: orange;
+}
+#click{
+	position: absolute;
+	left: 450px;
+	top: 0px;
+}
+/* #a1{
+	position:relative;
+	bottom: 210px;
+	z-index: 1;
+}
+
+#a2{
+	position:relative;
+	top: 100px;
+} */
+#connected{
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+
+#crud{
+	position: relative;
+	
+	bottom: 90px;
+	left: 310;
+	
+}
+#crud2{
+	background-color: ;
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+	left: 100px;
+	height: 25px;	
+}
+#formLinks{
+	position: relative;
+	height: 110px;
+	top: 500px;
+	background-color: blue;
+
+}
+
+#formSmallDelete{
+	position:absolute;
+	top: 05px;
+	left: 350px;
+	z-index: 0;
+	width: 200px;
+	height: 250px;
+	background-color: violet;
+	border: solid black 2px;
+	
+	
+}
+
+#main_table{
+	position: absolute;
+	top: 780px;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	background-color: ;
+	
+}
+
+#main_table2{
+	position: absolute;
+	top: 770px;
+	left: 25px;
+	width: 525px;
+	background-color: violet;
+}
+#login{
+	
+	height: 50px;
+}
+#login2{
+	border: solid black 2px;
+	background-color: #FCF896;
+	height: 150px;
+}
+#logout{
+	position: absolute;
+	top: 75px;
+	left: 500px;
+}
+#pw_label{
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+#pw_label2{
+	position: absolute;
+	top: 100px;
+	left: 175px;
+}
+
+#show_items{
+	border: solid black 2px;
+}
+#showfreezer{
+	position: relative;
+	bottom: 295px;
+}
+
+#showfreezer2{
+	position: relative;
+}
+
+#sort{
+	position: relative;
+	bottom: 80px;
+	right: 265px;
+}
+#status{
+	background-color: #AFD4DF ;
+	height: 90px;
+	width: 780px;
+	border: solid black 4px;
+}
+
+#status2{
+	background-color: yellow;
+	width: 98%;
+	padding-right: 5px;
+	padding-left: 5px;
+	position: relative;
+	bottom: 40px;
+}
+#submit{	
+	float: right;
+	display: inline-block;
+	background-color: #D3D3D3 ;
+	position: relative;
+	bottom: 30px;
+	right: 40px;
+	z-index: 0;
+	height: 30px;
+	
+}
+
+#submit2{	
+	float: right;
+	display: inline-block;
+	background-color: #D3D3D3 ;
+	position: relative;
+	bottom: 50px;
+	right: 40px;
+	z-index: 0;
+	height: 30px;
+	
+}
+
+
+#submit3{
+	position: relative;
+	background-color: #D3D3D3;
+	bottom: 5px;
+	left: 80px;
+	z-index: 0;
+	float: left;
+	height: 30px;
+	
+	display: inline-block;
+	background-color: #D3D3D3;
+}
+#update{
+	height: 300px;
+	width: 450px;
+	background-color: white;
+	display: table;
+	vertical-align: top;
+	
+}
+#first_name{
+	margin-top: px;
+}
