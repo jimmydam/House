@@ -4,9 +4,9 @@
 	
 	
 	$username1 = 'Jimmy';
-	$password1 = 'magiseal';
+	$password1 = 'xxxxxxxx';
 	$username2 = 'Karen';
-	$password2 = 'chicochico';
+	$password2 = 'yyyyyyyy';
 	
 	
 	function godMode(){
